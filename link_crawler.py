@@ -2,6 +2,7 @@ import boto3
 from multiprocessing import Pool
 from crawl_board_sqs import crawl_board_to_sqs
 
+#Set sub boards to crawl
 boards = ["anime", "ohjelmointi", "sekalainen", "tori", "masiinat"]
 boards_whole=[]
 for board in boards:
